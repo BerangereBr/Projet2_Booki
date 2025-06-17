@@ -161,6 +161,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .info .fa-info {
@@ -355,7 +356,8 @@ a {
 
 /*** Activités ***/
 .container-activites {
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .container-activites h2 {
@@ -384,7 +386,7 @@ a {
 }
 
 .activite-card img {
-    height: 400px;
+    height: 80%;
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -393,7 +395,7 @@ a {
 }
 
 .activite-card h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 10px;
 }
 
@@ -410,12 +412,18 @@ a {
 footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     background: var(--main-bg-color);
+    font-size: 12px;
+    width: 100%;
+    padding-left: 30px;
 }
 
 footer h2 {
     font-size: 18px;
+}
+
+footer div {
+    width: 100%;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -500,7 +508,7 @@ footer h2 {
 
     .activite-card div {
         display: flex;
-        height: 60px;
+        /* height: 80px; */
         align-items: center;
     }
 
