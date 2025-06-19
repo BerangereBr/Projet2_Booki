@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -551,6 +552,7 @@ footer div {
     .location-container h1,
     .location-container p {
         margin-left: 20px;
+        margin-right: 20px;
     }
 
     .location {
@@ -569,7 +571,6 @@ footer div {
     }
 
     .location-btn-glass {
-        position: absolute;
         border: none;
         background: white;
     }
